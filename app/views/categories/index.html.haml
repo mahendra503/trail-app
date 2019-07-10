@@ -1,0 +1,16 @@
+%h1 Categories
+
+%table
+  %thead
+    %tr
+      %th S.No.
+      %th Name
+      %th Code
+      %th
+  %tbody
+    - @categories.each do |category|
+      %tr
+        %td 
+        %td= category.Name
+        %td= category.Code
+        %td

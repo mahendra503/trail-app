@@ -1,0 +1,2 @@
+class AddColumnInSample < ApplicationRecord
+end
